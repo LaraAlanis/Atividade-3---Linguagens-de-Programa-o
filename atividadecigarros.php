@@ -24,7 +24,7 @@
      $dias_perdidos = $total_dias_perdidos - (30 * intdiv($total_dias_perdidos, 30));
 
      $resultado = "<p> Consumindo cigarros <strong> 10 vezes ao dia </strong>, por <strong > 3  anos  </strong> uma pessoa perderia aproximadamente:</p>
-     <p> <strong> {$meses_perdidos} Meses </strong>, <strong> {$dias_perdidos} Dias </strong>, <strong> {$horas_perdidas} Horas </strong> e <strong> {$minutos_perdidos} Minutos </strong></p>";
+     <p> <strong> {$meses_perdidos} Meses </strong>, <strong> {$dias_perdidos} Dias </strong>, <strong> {$horas_perdidas} Horas </strong> e <strong> {$minutos_perdidos} Minutos de Vida</strong></p>";
  echo $resultado; 
 
 
