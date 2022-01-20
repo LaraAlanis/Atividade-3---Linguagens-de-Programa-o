@@ -18,7 +18,7 @@
      $minutos_perdidos = $total_de_minutos_de_vida - (60 * intdiv($total_de_minutos_de_vida, 60)); 
 
      $total_dias_perdidos = intdiv($total_de_horas_de_vida, 24); 
-     $horas_perdidas = $total_de_horas_de_vida - (24 * intdiv(horas_de_vida, 24));
+     $horas_perdidas = $total_de_horas_de_vida - (24 * intdiv($total_de_horas_de_vida, 24));
 
      $meses_perdidos = intdiv($total_dias_perdidos, 30); 
      $dias_perdidos = $total_dias_perdidos - (30 * intdiv($total_dias_perdidos, 30));
